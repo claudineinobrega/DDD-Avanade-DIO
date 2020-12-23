@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Core", "PetStore.Core\PetStore.Core.csproj", "{FF79E5EE-F489-4239-B935-DA2C06848BFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Resources", "PetStore.Resources\PetStore.Resources.csproj", "{F829D345-1AC5-4640-BBAC-6FB3BF76CA39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{78965154-DBB2-4B27-AC6E-5B56E0C85A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Core.Test", "Test\PetStore.Core.Test\PetStore.Core.Test.csproj", "{BF525221-D587-4727-A48D-9AFDADF2A3CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.TestBase", "Test\PetStore.TestBase\PetStore.TestBase.csproj", "{BE801B36-49C9-4770-952C-76259F81F5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Infrastructure.NHibernate", "PetStore.Infrastructure.NHibernate\PetStore.Infrastructure.NHibernate.csproj", "{F5595B81-C00D-452E-8C4E-67380224EE4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Infrastructure.Foundation", "PetStore.Infrastructure.Foundation\PetStore.Infrastructure.Foundation.csproj", "{F71C9500-5F71-4316-BB06-1B62A30B12CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Infrastructure.NHibernate.Test", "Test\PetStore.Infrastructure.NHibernate.Test\PetStore.Infrastructure.NHibernate.Test.csproj", "{D4AB6CC1-B67D-4457-8864-985A844CBCF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF79E5EE-F489-4239-B935-DA2C06848BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF79E5EE-F489-4239-B935-DA2C06848BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF79E5EE-F489-4239-B935-DA2C06848BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF79E5EE-F489-4239-B935-DA2C06848BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F829D345-1AC5-4640-BBAC-6FB3BF76CA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F829D345-1AC5-4640-BBAC-6FB3BF76CA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F829D345-1AC5-4640-BBAC-6FB3BF76CA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F829D345-1AC5-4640-BBAC-6FB3BF76CA39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF525221-D587-4727-A48D-9AFDADF2A3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF525221-D587-4727-A48D-9AFDADF2A3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF525221-D587-4727-A48D-9AFDADF2A3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF525221-D587-4727-A48D-9AFDADF2A3CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE801B36-49C9-4770-952C-76259F81F5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE801B36-49C9-4770-952C-76259F81F5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE801B36-49C9-4770-952C-76259F81F5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE801B36-49C9-4770-952C-76259F81F5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5595B81-C00D-452E-8C4E-67380224EE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5595B81-C00D-452E-8C4E-67380224EE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5595B81-C00D-452E-8C4E-67380224EE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5595B81-C00D-452E-8C4E-67380224EE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71C9500-5F71-4316-BB06-1B62A30B12CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71C9500-5F71-4316-BB06-1B62A30B12CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71C9500-5F71-4316-BB06-1B62A30B12CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71C9500-5F71-4316-BB06-1B62A30B12CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4AB6CC1-B67D-4457-8864-985A844CBCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AB6CC1-B67D-4457-8864-985A844CBCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AB6CC1-B67D-4457-8864-985A844CBCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AB6CC1-B67D-4457-8864-985A844CBCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF525221-D587-4727-A48D-9AFDADF2A3CB} = {78965154-DBB2-4B27-AC6E-5B56E0C85A22}
+		{BE801B36-49C9-4770-952C-76259F81F5FF} = {78965154-DBB2-4B27-AC6E-5B56E0C85A22}
+		{D4AB6CC1-B67D-4457-8864-985A844CBCF8} = {78965154-DBB2-4B27-AC6E-5B56E0C85A22}
+	EndGlobalSection
+EndGlobal
